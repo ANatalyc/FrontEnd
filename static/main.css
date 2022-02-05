@@ -1,0 +1,117 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    background: #b2bec0;
+    font-family: Arial, Arial, Helvetica, sans-serif;
+}
+#container{
+    width: 90%;
+    margin: 0px auto;
+}
+header h1{
+    background: #dbe3e7;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    line-height: 100px;
+    color: #4d4747;
+    border-bottom: 10px solid #ffffff;
+    font-size: 50px;
+    
+}
+.banner{
+    width: 100%;
+    height: 300px;
+    background-image: url('blog.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+nav{
+    background: #000000;
+    height: 50px;
+    border-bottom: 5px solid #ffffff;
+}
+nav ul li{
+    float: left;
+    list-style: none;
+    margin: 10px;
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 30px;
+}
+.clear{
+    clear: both;
+}
+#contenido{
+    float: left;
+    width: calc(80% - 80px);
+    min-height: 350px;
+    background: #e6dddd;
+    text-align: justify;
+    color: #494545;
+    padding: 40px;
+}
+.article{
+    color: #000000;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #747171;
+}
+aside{
+    float: left;
+    width: calc(20% - 20px);
+    min-height: 410px;
+    background: #c9cfd1;
+    padding: 10px;
+}
+.form-register{
+    float: center;
+    padding-bottom: 65px;
+    margin-top: 15px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: #000000; 
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.form-register .botons{
+    width: 100%;
+    font-size: 16px;
+}
+.form-register .comentario{
+    padding: 0%;
+    margin-top: 10px;
+    font-family: 'calibri';
+    font-size: 14px;
+    border-radius: 4px;
+}
+.controls{
+    width: 100%;
+    background: #ffffff;
+    padding: 0%;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    border: 1px solid #ffffff;
+    font-family: 'calibri';
+    font-size: 14px;
+}
+.comentario{
+    width: 100%;
+    background: #ffffff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ffffff;
+    font-family: 'calibri';
+    font-size: 14px;
+}
+footer{
+    background: #000000;
+    color: #ffffff;
+    text-align: center;
+    height: 50px;
+    line-height: 30px;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Mi Blog</title>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='main.css') }}"/>
+    </head>
+    <body>
+            <header>
+                    <h1>Mi Blog</h1>
+            </header>
+            <div class="banner"></div>
+        <div id="container">
+            <nav>
+                <ul>
+                    <li>Noticias</li>
+                    <li>Información</li>
+                </ul>
+            </nav>
+            <div class="clear"></div>
+
+            <section id="contenido">
+                <article class="comentarios">
+                    <h2>News</h2>
+                        <h1>Lorem ipsum dolor sit amet consectetur adipiscing elit 
+                            lacus suspendisse, erat taciti nisl dignissim venenatis 
+                            hendrerit malesuada ridiculus, quis cras fermentum purus 
+                            sociosqu morbi phasellus sapien. Nascetur vehicula cubilia 
+                            ornare scelerisque dictumst eget nisi netus commodo, aenean 
+                            facilisi egestas augue conubia arcu himenaeos. Curae leo 
+                            himenaeos ut cubilia integer torquent commodo hendrerit, 
+                            tempus aptent enim eu magna lacus per.
+
+                            Ullamcorper magna rutrum aptent nunc sapien magnis lobortis 
+                            ac dui, lectus suscipit quis conubia penatibus litora tellus 
+                            velit vel convallis, risus fames neque dignissim elementum 
+                            viverra placerat habitasse. Vulputate dui natoque semper 
+                            parturient mi lobortis viverra platea mus, penatibus gravida 
+                            a nisi cursus aliquet tempor condimentum vivamus, nulla facilisi 
+                            massa mollis tincidunt sociosqu taciti quisque. Libero primis 
+                            maecenas lectus per mollis commodo cum parturient purus ultrices 
+                            molestie arcu nullam, congue habitant consequat himenaeos cursus 
+                            placerat sem proin inceptos felis nostra tellus.</h1>
+                </article>
+                
+            </section>
+            <aside>
+            <section class="form-register">
+                <h1>Comentarios</h1>
+                <form action="/" method="POST" >
+                    <input class="controls" type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre" required/>
+                    <input class="controls" type="text" name="correo" id="correo" placeholder="Ingrese su e-mail" required/>
+                    <input class="controls" type="text" name="celular" id="celular" placeholder="Ingrese su número de celular" required/>
+                    <textarea class="comentario" name="comentario" rows="5" cols="35" id="comentario" placeholder="Escriba su comentario"></textarea>
+                    <button type="submit" class="botons">Enviar</button>
+                </form>
+            </section>
+            </aside>
+            <div class="clear"></div>
+            <footer>
+                Nataly Castillo &copy; 2021
+            </footer>
+        </div>
+    </body>
+</html>
